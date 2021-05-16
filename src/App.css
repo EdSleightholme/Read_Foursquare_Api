@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.inputWrapper{
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+/* RESULT STYLES */
+.resultWrapper{
+  padding: 1rem;
+}
+
+.resultValue{
+  padding: 1rem;
+  background-color: lightgrey;
+}
+
+.resultModal{
+  color: lightgrey;
+}
+
+
+/* MODAL STYLES */
+.outer-modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+
+.modal-content {
+    background-color: #363537;
+    margin: 15% auto;
+    padding: 1rem;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 30rem;
+    height: 60%;
+    max-height: 40rem;
+  }
+
+.modal-close-button{
+  width: 2rem;
+  height: 1rem;
+  border-radius: 2rem;
+  justify-items: center;
+  float: right;
+  color: white;
+  font-size: 2rem;
+}
+
+.modal-close-button:hover{
+   cursor: pointer;
+}
